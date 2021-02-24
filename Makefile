@@ -1,8 +1,9 @@
 BINDATA_FILE := data/generated_bindata.go
 
 # upstream data
-INSTANCES_URL := "https://s3.amazonaws.com/www.ec2instances.info/instances.json"
+#INSTANCES_URL := "https://s3.amazonaws.com/www.ec2instances.info/instances.json"
 
+INSTANCES_URL := "https://instances.vantage.sh/instances.json" 
 DEPS := "wget git jq"
 
 all: generate-bindata run-example

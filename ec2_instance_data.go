@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/cristim/ec2-instances-info/data"
+	"github.com/vkhodor/ec2-instances-info/data"
 	"github.com/pkg/errors"
 )
 
